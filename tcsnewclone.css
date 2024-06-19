@@ -1,0 +1,322 @@
+.main{
+    background-color:black;
+    top:0%;
+    width:100%;
+    font-family:Arial, Helvetica, sans-serif;
+    position:fixed;
+    left: 0%;
+    color:white;
+    
+}
+.scrollable-div {
+    height:100%;
+    overflow-y: scroll;
+    
+  }
+.main-header{
+    background-color: black;
+    display:flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px; 
+    
+    z-index: 2;
+    top:0%;
+    
+    width: 95%;
+    height: 110px;
+    position: fixed;
+
+   
+}
+.main-header a{
+    text-decoration: none;
+    color:white;
+}
+.main-header p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#hove:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+#nav{
+    text-align:center;
+    top:40%;
+    bottom:30%;
+    position:absolute;
+    font-size: 50px;
+}
+.first-image{
+    background-image:url("images/tcsmainpage.jpeg");
+    height: fit-content;
+    background-repeat: no-repeat;
+    width:auto;
+    color:white;
+    font-size:50px;
+    margin:100px 40px;
+    padding:40px 80px 600px 40px;
+}
+.first-image a{
+    text-decoration: none;
+    color:white;
+}
+.learnmore{
+    background-color: rgb(73, 116, 180);
+    border: none;
+    font-size: 20px;
+    color:white;
+    padding:10px 15px;
+    border-radius:20px;
+    opacity:0.5;
+}
+.learnmore:hover{
+    text-decoration: underline;
+    cursor:pointer;
+    opacity: 1;
+}
+.tb{
+    font-size: 35px;
+    padding-left: 40px;
+}
+.TBcontent{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    margin:0px 40px;
+    
+}
+.tbimage1{
+    background-image: url("images/tcsnwc.jpeg");
+    border-radius: 10px;
+    background-position:right;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.tbimage2{
+    background-image: url("images/tcskautex.jpeg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-position:right;
+    background-size:cover ;
+    margin-bottom: 20px;
+}
+.tbimage3{
+    background-image: url("images/tcssgenai.jpeg");
+    border-radius: 10px;
+    background-position:right;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.TBcontent p{
+    font-size:40px;
+    padding-left: 10px;
+}
+.industry{
+    background-color:aliceblue;
+    color:black;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left:20px;
+}
+li{
+    padding: 10px 0px;
+    padding-left:20px;
+}
+li:hover{
+    cursor: pointer;
+    text-decoration-line:underline;
+}
+.ser{
+    padding-top: 50px;
+    padding-left: 25px;
+    font-size:15px;
+}
+.trans{
+    padding-left: 85px;
+    font-size: 40px;
+}
+.various-services{
+    display:grid;
+    padding:10px 10px;
+    width:95%;
+    height:230px;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    background-repeat: no-repeat;
+    column-gap: 20px;
+    font-size: 30px;
+    
+    
+}
+.various-services:hover{
+    cursor:pointer;
+}
+.ai{
+    
+    background-image: url("images/tcsai.jpeg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.cloud{
+    background-image: url("images/tcscloud.jpeg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.cbo{
+    background-image: url("images/tcscbc.jpeg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.consult{
+    background-image: url("images/tcscounsal.jpeg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.line1{
+    
+    color: black;
+    padding:50px 0px 0px 75px;
+    font-size:13px;
+    font-weight: bold;
+
+}
+.line2{
+    background-color: white;
+    color: black;
+    padding:50px 0px 10px 75px;
+    font-size: 30px;
+    padding-top:20px;
+    font-weight: bold;
+}
+.pp{
+    padding-left:50px;
+    background-color:white;
+    color:black;
+    display:grid;
+    grid-template-columns:1fr 1fr ;
+    list-style: none;
+}
+.para1{
+    font-size:20px;
+    padding-bottom:-5px;
+}
+.para1 p{
+    padding-top:-5px;
+    font-size:15px;
+    color:rgba(109, 73, 73, 0.929);
+}
+.para1 hr{
+    width:95%;
+}
+#insights{
+    clear: both;
+    height:110px;
+    padding-top: 20px;
+}
+#insightsby{
+    color: #ffffff;
+    font-size: 45px;
+    margin-left: 40px;
+}
+#view{
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+    align-items: center; 
+    position: relative;
+    bottom: 90px;
+    font-size: 30px;
+}
+/*till here*/
+
+#blockad{
+    color:white;
+    padding-top: 20px;
+    height: 700px;
+}
+
+/* Images */
+#img1{
+    background-image: url("images/tcsiot.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    float: right;
+    margin-right: 27px;
+    border-radius: 10px;
+}
+#img2{
+    background-image: url("images/tcssgenai.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+    border-radius:10px
+}
+#futurepara a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#futurepara{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding-left: 27px; 
+    padding-right: 27px;
+    padding-bottom: 100px;
+    font-size: 40px;
+    
+}
+#jot{
+    text-align: center;
+    background-color: rgb(39, 32, 32);
+}
+.jot1{
+    font-size:50px;
+    padding-top:100px;
+    padding-bottom: 0px;
+}
+.ryp{
+    font-size:20px;
+}
+.etc{
+    border-radius: 40px;
+    background-color:rgb(39, 32, 32) ;
+    color:white;
+    padding:15px 40px;
+    margin-bottom: 80px;
+    font-size:20px ;
+    box-shadow: none;
+}
+.etc:hover{
+    cursor:pointer;
+}
+.soc{
+    font-size: 12px;
+    font-weight: bold;
+    padding:20px 0px 10px 110px;
+}
+.med{
+    font-size:20px ;
+    padding:0px 0px 10px 110px;
+}
+i{
+    padding:25px 150px 75px 110px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
